@@ -1,0 +1,27 @@
+{
+  "name": "ahsio/trip-sorter",
+  "description": "Provides an API that sorts boarding cards ",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ahmed Siouani",
+      "email": "ahmed.siouani@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "^2.5"
+  },
+  "scripts": {
+    "build": [
+      "@composer install --prefer-dist --optimize-autoloader --ansi --verbose"
+    ]
+  }
+}
