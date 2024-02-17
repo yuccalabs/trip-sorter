@@ -30,5 +30,11 @@
     "from": "Barcelona",
     "destination": "Gerona Airport",
     "seat": null
+  },
+  {
+    "type": "cab",
+    "designation": "78B",
+    "from": "Alger",
+    "destination": "Oran"
   }
 ]
